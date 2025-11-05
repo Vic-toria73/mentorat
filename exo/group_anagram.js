@@ -16,10 +16,10 @@
 
 function groupAnagrams(arr) {
   //const array = [];
-  const strings = "aet"
+  const strings = "aet";
   for (let i = 0; i < arr.length; i++) {
    // array.push(arr.at(i));
-    if (arr[i].toLowerCase() !=  strings) {
+    if (arr[i].toLowerCase() !=  strings) {  
       const arrayB = []
       arrayB.push(arr.at(i))
       console.log(arrayB)
